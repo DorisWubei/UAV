@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lay1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/title_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="centerInside"
+            android:layout_gravity="center_vertical"
+            android:background="@color/black"
+            android:src="@drawable/energy_consumption"/>
+        <TextView
+            android:id="@+id/title_text"
+            style="@style/big_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:text="HistoryData"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_data_selected"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/history_back_ground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.projects.wu.wateruav.HistoryModeView
+            android:id="@+id/day"
+            style="@style/history_mode_view_style"
+            android:text="Day"/>
+
+        <com.projects.wu.wateruav.HistoryModeView
+            android:id="@+id/week"
+            style="@style/history_mode_view_style"
+            android:text="week"/>
+
+        <com.projects.wu.wateruav.HistoryModeView
+            android:id="@+id/month"
+            style="@style/history_mode_view_style"
+            android:text="Month"/>
+
+        <com.projects.wu.wateruav.HistoryModeView
+            android:id="@+id/year"
+            style="@style/history_mode_view_style"
+            android:text="Year"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1">
+
+
+        <com.projects.wu.wateruav.HistoryChartView
+            android:id="@+id/mutiHistoryChartView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:circle_radius="@dimen/history_circle_radius"
+            custom:data_stroke_width="@dimen/history_data_stroke_width"
+            custom:first_data_line_color="@color/o2"
+            custom:line_color="@color/blue"
+            custom:line_stroke_width="@dimen/history_line_stroke_width"
+            custom:margin_bottom="@dimen/history_margin_bottom"
+            custom:margin_left="@dimen/history_margin_left"
+            custom:margin_right="@dimen/history_margin_right"
+            custom:margin_top="@dimen/history_margin_top"
+            custom:rect_background_color="@color/ph"
+            custom:second_data_line_color="@color/nh3"
+            custom:unit_color="@color/grey_light"
+            custom:x_first_point_offset="@dimen/history_x_first_point_offset"
+            custom:x_unit_text="@string/history_x_unit_day"
+            custom:x_unit_text_size="@dimen/history_x_unit_text_size"
+            custom:xlabel_text_size="@dimen/history_xlabel_text_size"
+            custom:y1_unit_text=""
+            custom:y2_unit_text="@string/history_y2_unit"
+            custom:y_unit_text_size="@dimen/history_y_unit_text_size"
+            custom:ylabel_text_size="@dimen/history_ylabel_text_size" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="@dimen/history_tips_margin_right"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/history_tips_padding_top" >
+
+        <com.projects.wu.wateruav.HistoryTipView
+            style="@style/history_tip_view_style"
+            android:src="@drawable/indoor_temp"
+            custom:tip_one_text="O2"
+            custom:tip_two_text="mg/L"/>
+
+        <com.projects.wu.wateruav.HistoryTipView
+            style="@style/history_tip_view_style"
+            android:src="@drawable/set_point_temp"
+            custom:tip_one_text="NH3·H2O"
+            custom:tip_two_text="mg/L"/>
+
+        <com.projects.wu.wateruav.HistoryTipView
+            style="@style/history_tip_view_style"
+            android:src="@drawable/on_time"
+            custom:tip_one_text="PH"
+            custom:tip_two_text="No Unit"/>
+    </LinearLayout>
+</LinearLayout>

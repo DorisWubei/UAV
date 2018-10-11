@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">WaterUAV</string>
+
+    <!--日期-->
+    <string name="date1">07/19</string>
+    <string name="date2">07/21</string>
+    <string name="date3">07/22</string>
+    <string name="date4">07/22</string>
+    <string name="date5">07/23</string>
+    <string name="date6">07/24</string>
+    <string name="date7">07/24</string>
+    <string name="date8">07/25</string>
+    <string name="date9">07/26</string>
+    <string name="date10">07/26</string>
+    <string name="date11">07/27</string>
+
+    <!--时间-->
+    <string name="time1">15:25</string>
+    <string name="time2">15:27 </string>
+    <string name="time3">17:25</string>
+    <string name="time4">18:25</string>
+    <string name="time5">19:12 </string>
+    <string name="time6">20:09</string>
+    <string name="time7">15:25 </string>
+    <string name="time8">21:12</string>
+    <string name="time9">02:29 </string>
+    <string name="time10">09:22</string>
+    <string name="time11">10:21</string>
+
+    <!--溶氧-->
+    <string name="o1">6.51</string>
+    <string name="o2">5.43 </string>
+    <string name="o3">7.23</string>
+    <string name="o4">7.81</string>
+    <string name="o5">7.92 </string>
+    <string name="o6">8.32</string>
+    <string name="o7">7.64 </string>
+    <string name="o8">5.67</string>
+    <string name="o9">7.56 </string>
+    <string name="o10">4.43</string>
+    <string name="o11">5.86</string>
+
+
+    <!--氮氨-->
+    <string name="n1">8.21</string>
+    <string name="n2">4.43 </string>
+    <string name="n3">7.26</string>
+    <string name="n4">7.51</string>
+    <string name="n5">7.62 </string>
+    <string name="n6">8.32</string>
+    <string name="n7">7.54 </string>
+    <string name="n8">7.67</string>
+    <string name="n9">8.56 </string>
+    <string name="n10">5.43</string>
+    <string name="n11">7.86</string>
+
+
+    <!--PH-->
+    <string name="ph1">6.8</string>
+    <string name="ph2">7.2</string>
+    <string name="ph3">6.5</string>
+    <string name="ph4">7.3</string>
+    <string name="ph5">6.4 </string>
+    <string name="ph6">7.5</string>
+    <string name="ph7">8.7</string>
+    <string name="ph8">6.5</string>
+    <string name="ph9">7.2</string>
+    <string name="ph10">6.5</string>
+    <string name="ph11">7.6</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="page_title">Title</string>
+
+    <string name="history">HISTORY</string>
+    <string name="history_title_name">History</string>
+    <string name="history_day">Day</string>
+    <string name="history_week">Week</string>
+    <string name="history_month">Month</string>
+    <string name="history_year">Year</string>
+    <string name="history_Indoor">Indoor</string>
+    <string name="history_Temp">Temp</string>
+    <string name="history_Setpoint">Setpoint</string>
+    <string name="history_On">On</string>
+    <string name="history_Time">Time</string>
+    <string name="history_x_unit_day">(DAY)</string>
+    <string name="history_x_unit_hour">(HOUR)</string>
+    <string name="history_x_unit_month">(MONTH)</string>
+    <string name="history_y1_unit">(℃)</string>
+    <string name="history_y2_unit">(%)</string>
+
+</resources>
