@@ -88,5 +88,7 @@
     <string name="history_x_unit_month">(MONTH)</string>
     <string name="history_y1_unit">(℃)</string>
     <string name="history_y2_unit">(%)</string>
+    <string name="about_us">关于我们</string>
+    <string name="text">开始测水</string>
 
 </resources>

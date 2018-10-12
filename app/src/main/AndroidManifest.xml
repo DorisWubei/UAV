@@ -58,6 +58,12 @@
             android:process=":remote">//LBS SDK中的服务
         </service>
 
+        <activity android:name=".JellyButtonActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <activity android:name=".DatalistActivity">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -65,6 +71,12 @@
         </activity>
 
         <activity android:name=".DataChartActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".AboutUsActivity">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>

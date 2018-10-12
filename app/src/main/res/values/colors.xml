@@ -3,7 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="white">#F5F5F5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_grey">#70B5B5B5</color>
     <color name="grey_white">#E8E8E8</color>
     <color name="grey_light">#B5B5B5</color>
     <color name="grey_middle">#9C9C9C</color>
@@ -32,5 +33,10 @@
     <color name="blue_green_light">#98F5FF</color>
     <color name="orange_middle">#FFA500</color>
     <color name="orange_dark">#FF8C00</color>
+    <color name="menuNormalRed">#ffff0000</color>
+    <color name="menuPressRed">#ffd2322d</color>
+    <color name="menuNormalInfo">#ff90fb98</color>
+    <color name="menuPressInfo">#ff98ff90</color>
+
 </resources>
 

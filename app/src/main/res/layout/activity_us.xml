@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".DatalistActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_gravity="center_horizontal"
+        app:cardPreventCornerOverlap="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp">
+
+        <Button
+            android:id="@+id/us_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/left"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="@string/about_us"/>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="35dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:textColor="@color/black"
+                android:text="您对我们的产品满意吗？"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/grey_black2"
+                android:lineSpacingExtra="1dp"
+                android:text="我们一直致力于改进用户的体验,所以很希望能知道哪些是我们目前做得不错的、哪些是我们能做得更好的。热切盼望您能联系我们，向我们提出您宝贵的建议。以下是我们产品的优点："
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingBottom="6dp"
+                android:paddingTop="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/grey_black2"
+                android:lineSpacingExtra="1dp"
+                android:text="【电子舌】无人机自身配备先进电子舌，通过各种传感器收集关于ph值，含氧量，氮氨量等信息，并将信息实时传递给数据收集端，使得采集数据更加便捷和准确。"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingBottom="6dp"
+                android:paddingTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:lineSpacingExtra="1dp"
+                android:textColor="@color/grey_black2"
+                android:text="【多终端多平台数据检测预警】通过电子舌收集到的实时水质信息在电脑、平板手机等终端以及微信、短信等平台及时分享传输并预警，使使用者能够足不出户通过各种智能产品了解详细的水质信息，方便快捷。"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingBottom="6dp"
+                android:paddingTop="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/grey_black2"
+                android:lineSpacingExtra="1dp"
+                android:text="【大数据分析】收集实时的水质信息，与之前的水质情况进行比对，通过有着数据量大，速度快，类型多，真实性等优点的大数据分析来预测水质变化，便于水质管理为水质污染做好防范与整治准备工作。"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingBottom="6dp"
+                android:paddingTop="5dp"/>
+
+        </LinearLayout>
+
+</LinearLayout>
